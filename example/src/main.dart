@@ -1,4 +1,4 @@
-import 'package:either/either.dart';
+import 'package:either_type/either_type.dart';
 import 'dart:math';
 
 // Some user class.
