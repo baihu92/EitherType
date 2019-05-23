@@ -1,4 +1,4 @@
-name: either
+name: either_type
 description: The library for Error Handling.
 version: 0.1.0
 author: Kirill Molokov <baihu92@gmail.com>
