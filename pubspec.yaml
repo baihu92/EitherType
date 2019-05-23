@@ -1,0 +1,11 @@
+name: either
+description: The library for Error Handling.
+version: 0.1.0
+author: Kirill Molokov <baihu92@gmail.com>
+homepage: https://github.com/baihu92
+
+environment:
+  sdk: ">=2.1.0 <3.0.0"
+
+dependencies:
+dev_dependencies:
