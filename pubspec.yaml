@@ -1,8 +1,9 @@
 name: either_type
 description: The library for Error Handling.
-version: 0.1.0
+version: 0.1.1
 author: Kirill Molokov <baihu92@gmail.com>
 homepage: https://github.com/baihu92
+repository: https://github.com/baihu92/Either
 
 environment:
   sdk: ">=2.1.0 <3.0.0"

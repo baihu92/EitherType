@@ -22,6 +22,14 @@ Future<Either<ServerError, User>> getUser() async =>
     (Random().nextBool()) ? Right(User("Bob")) : Left(ServerError(500));
 ```
 
+## Installation
+
+Add on pubspec.yml:
+
+```dependencies:
+  either_type: ^0.1.1```
+
+
 ## Getting Started
 
 This project is a starting point for a Dart
