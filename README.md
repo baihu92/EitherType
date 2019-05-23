@@ -1,4 +1,4 @@
-# either
+# Either
 
 The library for Error Handling.
 
