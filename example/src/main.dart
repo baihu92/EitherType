@@ -25,6 +25,16 @@ main() async {
       // Add a handler to get the user.
       print("User: ${user.name}");
     });
+
+  // or
+  final either = await getUser();
+  if (either.isLeft) {
+    final error = either.left;
+    print("Error: ${error.code}");
+  } else {
+    final user = either.right;
+    print("User: ${user.name}");
+  }
 }
 
 // And the return of either looks like this.

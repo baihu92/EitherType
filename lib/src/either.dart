@@ -18,6 +18,20 @@ abstract class Either<L, R> {
   /// Represents the right side of [Either] class which by convention is a "Success"
   bool get isRight => this is Right<L, R>;
 
+  L get left {
+    if (this is Left<L, R>)
+      return (this as Left<L, R>).value;
+    else
+      throw Exception('Illegal use. You should isLeft() check before calling ');
+  }
+
+  R get right {
+    if (this is Right<L, R>)
+      return (this as Right<L, R>).value;
+    else
+      throw Exception('Illegal use. You should check isRight() before calling');
+  }
+
   void either(Callback<L> fnL, Callback<R> fnR) {
     if (isLeft) {
       final left = this as Left<L, R>;
