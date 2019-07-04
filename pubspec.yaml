@@ -1,9 +1,12 @@
 name: either_type
-description: The library for Error Handling.
-version: 0.1.1
+version: 0.1.2
 author: Kirill Molokov <baihu92@gmail.com>
 homepage: https://github.com/baihu92
 repository: https://github.com/baihu92/Either
+description: The library for Error Handling. Armed with Either, you can write code that returns either an exception
+  or a legitimate result (but never both) while retaining type safety. The common functional convention is that the
+  left of an Either class contains an exception (if any), and the right contains the result.
+
 
 environment:
   sdk: ">=2.1.0 <3.0.0"
