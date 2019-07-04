@@ -36,8 +36,10 @@ Future<Either<ServerError, User>> getUser() async =>
 
 Add on pubspec.yml:
 
-```dependencies:
-  either_type: ^0.1.2```
+```
+dependencies:
+  either_type: ^0.1.2
+```
 
 
 ## Getting Started
